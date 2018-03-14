@@ -1,0 +1,202 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dami Ale</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
+    <link href="main.css" rel='stylesheet' type='text/css' media="all">
+    <link href="css/font-awesome.min.css" rel='stylesheet' type='text/css' media="all">
+    <link href="//fonts.googleapis.com/css?family=Dosis:300,400,500" rel="stylesheet">
+    <style>
+        *{
+    margin:0;
+}
+
+.preloader{ 
+    position:fixed; 
+    z-index: 9999999999999999999999999999;
+    left:0px; 
+    top:0px; 
+    width:100%; 
+    height:100%; z-index:999999;
+     background-color:rgba(255,255,255,1);
+     background-position:center center;
+     background-repeat:no-repeat; 
+    background-image:url(preloader.gif);
+}
+
+
+html,body{
+    height: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin-bottom: 20px;
+}
+
+nav {
+    position: fixed;
+    padding-top: 10px;
+    width: 92%; 
+    height: 50px;
+    background-color: rgba(0,0,0,.3); 
+    z-index: 99;
+}
+
+
+.sect{
+    height: 100%;
+}
+
+.subsect{
+    height: 50%;
+    background-color: transparent;
+}
+
+.sectone{
+    position: relative;
+    background-image:url("img (52).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.secttwo{
+    background-image:url("img (53).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+.sectthree{
+    background-image:url("img (55).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.profile-details{
+    font-size: 18px;
+    text-align: left;
+    float: left;
+    padding: 10px;
+    width: 50%;
+    color: royalblue;
+    line-height: 26px;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.profile-image{
+    float: right;
+    padding: 10px;
+    width: 40%;
+}
+
+.profile-writeup{
+    margin-top: 50px;
+}
+
+.intro-text{
+    padding: 5px;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    border: 2px solid #fff;
+    font-style: italic;
+}
+
+.nav-links li{
+    display: inline;
+    margin-left: 15px;
+}
+
+ul.nav-links a{
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    font-size: 21px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+.nav-links a:hover{
+    background-color: rgba(0,0,0,.5) ;
+    color: white;
+}
+
+.profile-contact a {
+    text-decoration: none;
+    line-height: 50px;
+}
+
+.profile-contact a:hover {
+    color : red;
+}
+
+.space {
+    margin-right: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="" class="scroll">Home</a></li>
+            <li><a href="#about" class="scroll">About</a></li>
+            <li><a href="#contact" class="scroll">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="sect sectone">
+        <div class="intro-text">
+            <p>I'M DAMIE CODE</p>
+        </div>
+    </div>
+    <div class="subsect" id="about">
+        <div class="profile-image">
+            <img src="damie.jpg" height="300px" width="200px" alt="Dami Ale">
+        </div>
+        <div class="profile-details">
+         <h3 >About Me</h3>
+            <p class="profile-writeup">
+                I'm Dami Ale, a part 3 student of the department of 
+                computer science and engineering in Obafemi Awolowo University.
+                I'm a Frontend web developer.
+                My current skillsets are 
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                </ul>
+        </div>
+    </div>
+    <div class="sect secttwo"></div>
+    <div class="subsect">
+            <div class="profile-image">
+                    <!-- <img src="" alt="Dami Ale"> -->
+                </div>
+                <div class="profile-details">
+                        <h3 id="contact">Contact Me</h3>
+                    <p class="profile-contact">
+                        <a href="+2348039159459"><i class="fa fa-phone space"></i>Mobile : 08039159459</a><br>
+                        <a href="damidigi@yahoo.com"><i class="fa fa-envelope space"></i>Email : damidigi@yahoo.com</a><br>
+                        <a href="www.facebook.com/aledamilola"><i class="fa fa-facebook space"></i>Facebook : Ale Damilola<br>
+                        <a href="twitter.com/@iamlildamski"><i class="fa fa-twitter space"></i>Twitter : @iamlildamski</a><br>
+                        <a href="https://www.github.com/damiecode"><i class="fa fa-github space"></i>Github : damiecode</a><br>
+                    </p> 
+                </div>
+    </div>
+    <div class="sect sectthree"></div>
+</body>
+</html>
