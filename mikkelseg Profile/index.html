@@ -1,0 +1,349 @@
+<!doctype html>
+<html>
+<head>
+<title> Mikkelseg Profile</title>
+<style>
+*{
+/*reset */
+margin:0;
+padding:0;
+}
+
+header,footer,
+section,
+hgroup,nav,
+figure{
+	/* Giving a display value to the HTML5 rendered elements: */
+	display:block;
+}
+body{
+font-size:0.825em;
+color:#fcfcfc;
+background-color:#355664;
+font-family:Arial, Helvetica, sans-serif;
+
+}
+
+/*Hyperlinks styles */
+
+p a {
+	color:#fff;
+	line-height: 2.0em;
+	font-size:1.4em;
+	
+	background-color:;
+}
+
+a,a:visited{
+     color: #fff;
+     text-decoration:none;
+     list-style-type: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+/* headings */
+h1,h2,h3{
+	font-family:"Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+	   text-shadow:0 1px 1px black;
+}
+ ul li{
+	list-style-type: none; 
+	line-height:  2.0em;
+}
+
+h1{
+	/* The logo text */
+	font-size:3.5em;
+	padding:0.5em 0 0;
+	text-transform:uppercase;
+}
+
+h3{
+	/* The slogan text */
+	font-family:forte,"Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+	font-size:2em;
+	font-weight:normal;
+	margin:0 0 1em;
+}
+
+
+h2{
+	font-size:2.2em;
+	font-weight:normal;
+	letter-spacing:0.01em;
+	text-transform:uppercase;
+}
+
+p{
+	line-height:1.5em;
+	padding-bottom:1em;
+}
+#page{
+    width:960px;
+	margin:0 auto;
+	position:relative;
+
+}
+
+nav{
+	
+	background-color: #ddd;
+	padding:0 5px;
+	position:absolute;
+	right:0;
+	top:4em;
+	border:1px solid #fcfcfc; 
+	-moz-box-shadow:0 1px 1px #333333;
+	-webkit-box-shadow:0 1px 1px #333333;
+	box-shadow:0 1px 1px #333333;
+	}
+
+	/* The clearfix clear the floats: */
+
+.clear:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* The navigation styling: */
+i{
+	display:block;
+	color:#fff;
+	margin-right:30px;
+}
+
+nav ul li{
+	display:inline;
+
+}
+
+nav ul li a,
+nav ul li a:visited{
+	color:#565656;
+	display:block;
+	float:left;
+	font-size:1.25em;
+	font-weight:bold;
+	margin:5px 2px;
+	padding:7px 10px 4px;
+	text-shadow:0 1px 1px white;
+	text-transform:uppercase;
+}
+
+nav ul li a:hover{
+	text-decoration:none;
+	background-color:#f0f0f0;
+}
+
+nav, section, nav ul li a,figure{
+	/* Applying CSS3 rounded corners: */
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+
+
+.line{
+  /* The dividing horizontal rule: */
+	height:1px;
+	background-color:#24404c;
+	border-bottom:1px solid #416371;
+	margin:1em 0;
+}
+
+section .line{
+    	/* The dividing line inside of the article is darker: */
+	background-color:#15242a;
+	border-bottom-color:#204656;
+	margin:1.3em 0;
+}
+
+/* section styles: */
+section{
+	background-color:#213E4A;
+	margin:3em 0;
+	padding:20px;
+	text-shadow:0 2px 0 black;
+	
+}
+
+figure{
+	border:3px solid #142830;
+	float:right;
+	height:300px;
+	margin-left:15px;
+	overflow:hidden;
+	width:500px;
+}
+
+figure:hover{
+	-moz-box-shadow:0 0 2px #4D7788;
+	-webkit-box-shadow:0 0 2px #4D7788;
+	box-shadow:0 0 2px #4D7788;
+}
+
+figure img{
+	margin-left:-60px;
+}
+
+/* Footer styling: */
+
+footer{
+	margin-bottom:30px;
+	text-align:center;
+	font-size:0.825em;
+}
+
+
+footer p{
+	margin-bottom:-2.5em;
+	position:relative;
+}
+
+footer a,footer a:visited{
+	color:#cccccc;
+	background-color:#213e4a;
+	display:block;
+	padding:2px 4px;
+	z-index:100;
+	position:relative;
+}
+
+footer a:hover{
+	text-decoration:none;
+	background-color:#142830;
+}
+
+footer a.by{
+	float:left;
+
+}
+
+footer a.up{
+	float:right;
+}
+
+</style>
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+</head>
+<body>
+<div id="page"><!-- defining the page  -->
+<header><!-- defining the header section -->
+<hgroup>
+<h1>Mikkelseg</h1>
+<h3>God's like</h3>
+</hgroup>
+<nav class="clear"><!-- the nav link for your site navigation -->
+<ul>
+<li><a href="#firstDiv">About Me</a></li>
+<li><a href="#secondDiv">My work</a></li>
+<li><a href="#thirdDiv">Contact</a></li>
+</ul>
+</nav><!--closing the nav link -->
+</header><!--closing the header section -->
+<div><!-- the div for the articles --> 
+<div class="line"></div>  <!-- Dividing horizontal rule -->
+<section><!-- the first section for about me -->
+<h2><a name="firstDiv">About Me</a></h2>	
+<div class="line"></div><!-- dividing line in the article after heading -->
+ <div class="clear">
+ 	<figure>
+<img src="images/mikkel.jpg" width="620" height="340">	
+</figure>
+ 	<p>Ademola Micheal Olusegun is my name.An Aspiring  MEAN STACK Developer.I am a graduate of Computer Science Lagos State Polytechnic and also a student of National Open University of Nigeria.I believe in Hardwork,Perseverance,Teamwork and also to push myself to the limit until i achieve my aim.I love studying and also love the gadget called computer.</p>
+
+
+ 		<p>my skill set are:</p>
+ 	<ul>
+<li><i class="fa fa-square"></i> HTML</li>
+<li><i class="fa fa-square"></i> CSS</li>
+<li><i class="fa fa-square"></i> JAVASCRIPT</li>
+<li><i class="fa fa-square"></i> BOOTSTRAP</li>
+<li><i class="fa fa-square"></i> Little Node Js Framework</li>
+</ul>
+
+
+ </div>  <!-- a div holding the first article inside a section -->                 
+</section>
+
+<div class="line"></div>  <!-- Dividing horizontal rule -->
+<section><!-- the section section for mywork -->
+<h2><a name="secondDiv">My Work</a></h2>	
+<div class="line"></div><!-- dividing line in the article after heading -->
+ <div class="clear">
+ 	<figure>
+ 	<img src="images/work1.jpg" width="620" height="340">	
+</figure>
+ 	<p>I have done lot of basic stuffs,part of my work includes </p>
+ 	<ul>
+<li><i class="fa fa-paper-plane "></i> Random Quotes with Images and Text using Javascript</li>
+<li><i class="fa fa-paper-plane "></i> Corpers Management system with PHP</li>
+<li><i class="fa fa-paper-plane "></i> CR7 profile with bootstrap</li>
+</ul>
+<br/>
+and lots more.....
+<p>Here is a link to the cr7 profile website:</p>
+<a href="https://codepen.io/mikkelseg/full/zdbEoo"><li><i class="fa fa-globe "></i>http://codepen/mikkelseg</li></a>
+
+
+
+
+ </div>  <!-- a div holding the second article inside a section -->                 
+</section>
+
+<div class="line"></div>  <!-- Dividing horizontal rule -->
+<section><!-- the section section for contact -->
+<h2><a name="thirdDiv">Contact</a></h2>	
+<div class="line"></div><!-- dividing line in the article after heading -->
+ <div class="clear">
+ 	<figure>
+<img src="images/contact.jpg" width="620" height="340">	
+</figure>
+ 	<p>you can contact me via the links below:</p>
+
+
+ 		<p> <a href="+2348022482797"><i class="fa fa-phone space fa-2x"></i> Mobile : 08022482797</a><br>
+             <a href="mikkel2segun@yahoo.com"><i class="fa fa-envelope space fa-2x"></i> Email : mikkel2segun@yahoo.com</a><br>
+             <a href="www.facebook.com/micheal.olusegun"><i class="fa fa-facebook space fa-2x"></i> Facebook :  Micheal olusegun<br>
+              <a href="https://twitter.com/mikkelanrex"><i class="fa fa-twitter space fa-2x"></i> Twitter : @mikkelanrex</a><br>
+              <a href="https://www.github.com/mikkelseg"><i class="fa fa-github space fa-2x"></i> Github : mikkelseg</a><br>
+</p>
+ 	
+
+
+ </div>  <!-- a div holding the third article inside a section -->                 
+</section>
+
+
+
+
+</div><!-- div holding all the articles  -->
+
+<footer> <!-- Marking the footer section -->
+
+           <div class="line"></div>
+           
+           <p>Copyright 2018 - mikkelseg.com</p> <!-- Change the copyright notice -->
+           
+           <a href="#" class="up">Go UP</a>
+           <a href="http://tutorialzine.com/2010/02/html5-css3-website-template/" class="by">Mockup From Tutorialzine</a>
+           
+
+        </footer>
+       
+
+
+
+
+</div><!-- closing the  page -->
+</body>
+
+
+</html>
